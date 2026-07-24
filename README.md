@@ -13,6 +13,9 @@ ________________________________________
 •	Straight-through cables<br>
 ________________________________________
 # Network Topology Diagram
+
+<img width="711" height="552" alt="image" src="https://github.com/user-attachments/assets/5bcad7fc-49a3-4fa3-b03a-27958f3a554b" />
+
  Description:<br>
 •	PC0 → Switch0 → Router (FastEthernet0/0)<br>
 •	PC1 → Switch1 → Router (FastEthernet0/1)<br>
@@ -53,8 +56,14 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	Router CLI configuration<br>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/25257098-a52a-44c7-9ae9-742587b78222" />
+
 •	IP configurations on PCs<br>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/95bbda37-7217-4f09-9905-82224e7b7439" />
+
 •	Successful ping between PC0 and PC1<br>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/609f5e02-e96a-4098-9325-6161a602eb1e" />
+
 ________________________________________
 # Result
 Successfully configured a router to connect two LANs. Communication between PC0 and PC1 across different networks was tested and verified.
